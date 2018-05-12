@@ -1,11 +1,10 @@
-var teo = { name: 'Teo Nguyen', age: 10 };
-var ti = { name: 'Teo Nguyen', age: 10 };
-var MyComponent = /** @class */ (function () {
-    function MyComponent() {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const teo = { name: 'Teo Nguyen', age: 10 };
+const ti = { name: 'Teo Nguyen', age: 10 };
+class MyComponent {
+    ngOnInit() {
     }
-    MyComponent.prototype.ngOnInit = function () {
-    };
     ;
-    return MyComponent;
-}());
-export { MyComponent };
+}
+exports.MyComponent = MyComponent;
